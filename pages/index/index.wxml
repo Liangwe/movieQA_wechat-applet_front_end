@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <open-data type="userAvatarUrl"></open-data>
+    <open-data type="userNickName" lang="zh_CN"></open-data>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+    <text class="loginBtn" bindtap="loginCenterIndex">欢迎进入》</text>
+  </view>
+  <view >
+    <text class="loginBtn" ></text>
+  </view>
+</view>
